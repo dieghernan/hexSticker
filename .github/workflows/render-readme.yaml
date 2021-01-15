@@ -31,6 +31,7 @@ jobs:
         run: |
           
           install.packages("rmarkdown")
+          install.packages("badger")
 
           remotes::install_local(".")
           
